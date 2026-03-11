@@ -1,0 +1,51 @@
+h1 {
+  font-size: 3.5rem !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+.note-list {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.search-input {
+ font-size: 1rem;
+ padding: 10px;
+ border: 2px solid black;
+ border-radius: 5px;
+ color: black;
+ margin-right: 88px;
+ margin-top: 20px;
+ margin-left: 50px;
+ margin-bottom: 20px;
+ width: 600px;
+}
+
+.add-input {
+  font-size: 1rem;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: black;
+  margin-right: 10px;
+  margin-left: 50px;
+  width: 600px;
+}
+
+.add-button {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 10%;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  background-color: green;
+}
+
+.add-button:hover {
+  background-color: rgb(36, 231, 36);
+}
+

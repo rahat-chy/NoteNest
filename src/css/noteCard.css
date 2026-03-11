@@ -1,0 +1,53 @@
+.note-card {
+  padding: 15px;
+  background-color: rgb(208, 214, 177);
+  margin-bottom: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border: 3px solid black;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.note-text {
+  text-align: left;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.note-button {
+  justify-content: end;
+}
+
+.done-button {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 10%;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  background-color: rgb(18, 87, 236);
+}
+
+.done-button:hover {
+  background-color: rgb(59, 213, 233);
+}
+
+.delete-button {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 10%;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  background-color: rgb(236, 29, 29);
+}
+
+.delete-button:hover {
+  background-color: #B22222;
+}
