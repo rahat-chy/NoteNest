@@ -18,6 +18,7 @@ export default function UpdateNotePage() {
   if (!note) return <p>Note not found</p>;
 
   const handleUpdate = () => {
+    note.text = inputNote;
     updateNote(note);
     router.push("/");
   };
