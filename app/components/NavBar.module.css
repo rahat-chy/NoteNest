@@ -1,0 +1,28 @@
+.navBar {
+    background-color: bisque;
+    color: rgb(75, 69, 69);
+    padding: 10px;
+}
+
+.navbar a {
+    margin-left: 10px;
+}
+
+.navbar a:hover {
+    color: rgb(134, 134, 128) !important;
+    text-decoration: underline;
+}
+
+.navBarItems {
+    display: flex;
+}
+
+.navBarLogo {
+    color: white;
+    margin-left: 10px;
+}
+
+.navBarOptions {
+    margin-top: 5px;
+    margin-left: 10px;
+}
