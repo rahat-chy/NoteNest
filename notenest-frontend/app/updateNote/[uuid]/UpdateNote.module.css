@@ -1,0 +1,37 @@
+.separator {
+  color: white;
+  margin-bottom: 40px;
+}
+
+.updateNoteContainer {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.updateInput {
+  font-size: 1rem;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: black;
+  margin-right: 10px;
+  margin-left: 50px;
+  width: 600px;
+}
+
+.updateButton {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 10%;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  background-color: rgb(18, 87, 236);
+}
+
+.updateButton:hover {
+  background-color: rgb(59, 213, 233);
+}
